@@ -18,7 +18,7 @@ const Sidebar: React.FC<SidebarProps> = ({ setPage }) => {
 
   return (
     <div className={styles.sidebar}>
-      {/* Render user profile information */}
+     
       <div className={styles.profileInfo}>
         <h2>{profile.name}</h2>
         <p>{profile.company}</p>
