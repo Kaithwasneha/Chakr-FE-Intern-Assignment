@@ -1,0 +1,21 @@
+.appearanceSettings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.themeOption {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.themeOption:hover {
+  background-color: #e0e0e0;
+}

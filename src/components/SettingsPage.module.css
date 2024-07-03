@@ -1,0 +1,75 @@
+.settingsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.settingsContainer {
+  display: flex;
+  width: 100%;
+  max-width: 800px; /* Adjust max-width as needed */
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.sidebar li:hover {
+  background-color: #e0e0e0;
+}
+
+.sidebar li.active {
+  background-color: #d0d0d0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+:root {
+  --background-color: white;
+  --text-color: black;
+}
+
+[data-theme="light"] {
+  --background-color: white;
+  --text-color: black;
+}
+
+[data-theme="dark"] {
+  --background-color: #1a1a1a;
+  --text-color: white;
+}
+
+[data-theme="purple-light"] {
+  --background-color: #f3e5f5;
+  --text-color: #4a148c;
+}
+
+[data-theme="purple-dark"] {
+  --background-color: #4a148c;
+  --text-color: #f3e5f5;
+}
+
+.settingsPage {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  height: 100vh;
+}

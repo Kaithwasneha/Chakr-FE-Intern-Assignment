@@ -1,0 +1,36 @@
+
+
+.commandBar {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 1px solid #ccc;
+  width: 300px;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.commandBar input {
+  width: calc(100% - 20px); /* Adjusted for padding */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.commandBar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.commandBar li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.commandBar li:hover {
+  background-color: #f0f0f0; 
+}

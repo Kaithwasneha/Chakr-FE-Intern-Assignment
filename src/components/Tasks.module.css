@@ -1,0 +1,48 @@
+
+
+.tasksPage {
+    padding: 20px;
+  }
+  
+  .addTaskForm,
+  .addProspectForm {
+    margin-bottom: 20px;
+  }
+  
+  .addTaskForm input,
+  .addTaskForm textarea,
+  .addTaskForm select,
+  .addProspectForm input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .addTaskForm button,
+  .addProspectForm button {
+    padding: 10px 20px;
+  }
+  
+  .taskList {
+    margin-top: 20px;
+  }
+  
+  .taskItem {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .taskItem h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .taskItem p {
+    margin: 0 0 10px 0;
+  }
+  
+  .taskItem button {
+    padding: 5px 10px;
+  }
+  
